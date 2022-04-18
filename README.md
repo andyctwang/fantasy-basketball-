@@ -1,1 +1,5 @@
-# fantasy-basketball-
+# fantasy-basketball-drafting
+
+# The model is based on two factors. The first is value over placement(VOR), which is calculated by stats scored by players in 2020 and determines how many projected fantasy points we might lose if we do not draft the player in that specific round. The other factor is average draft position(ADP), which we acquire from “fantasyfootballcalculator.com”. By comparing the ADP and VOR rankings, we are able to project which players might give us a higher value than their ADP suggests, giving us a more holistic view on player drafting.
+
+# Normally when drafting players we instinctively select the player with the highest projected fantasy points available to us, but this method is often short sighted. For example if there are 4 players remaining. QB1 has 400 points, QB2 has 375 points; RB1 has 350 points and RB2 has 300 points. If we draft QB1 now and lose out on RB1 our next option will be RB2, this could cost us 50 projected points. But by drafting RB1 now we will only lose 25 projected points since QB2 will probably be available next round. And that is the concept of VOR. By looking at my draft table with VOR rankings, we will be able to easily determine which players to draft without potentially losing more points.
