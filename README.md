@@ -1,4 +1,4 @@
-# fantasy-basketball-drafting
+# fantasy-football-drafting
 
 # The model is based on two factors. The first is value over placement(VOR), which is calculated by stats scored by players in 2020 and determines how many projected fantasy points we might lose if we do not draft the player in that specific round. The other factor is average draft position(ADP), which we acquire from “fantasyfootballcalculator.com”. By comparing the ADP and VOR rankings, we are able to project which players might give us a higher value than their ADP suggests, giving us a more holistic view on player drafting.
 
